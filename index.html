@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.createjs.com/easeljs-0.7.1.min.js"></script>
+</head>
+<body>
+    <h1>実は起床後3時間が脳の集中力MAXジェネレーター</h1>
+    <p>内輪ネタ</p>
+    <div id="form">
+        実は<br>
+        <input placeholder="起床" class="inputel" oninput="drawButton()" />後<br>
+        <input placeholder="3" type="number" class="inputel" oninput="drawButton()" />時間が<br>
+        <input placeholder="脳の集中力" class="inputel" oninput="drawButton()" /><br>
+        MAX!<br>
+        ↓<br>
+        <input placeholder="土曜講座" class="inputel" oninput="drawButton()"/>は<br>
+        <input placeholder="学力向上" class="inputel" oninput="drawButton()" />にピッタリ！<br>
+        <button onClick="download()">画像をダウンロード</button>
+    </div>
+    <canvas width="1000" height="1414" id="canvas"></canvas>
+    <script src="./main.js"></script>
+</body>
+</html>

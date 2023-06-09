@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "ltg";
+    src: url("./fonts/ロゴたいぷゴシック.woff") format("woff");
+}
+
+@font-face {
+    font-family: "sg";
+    src: url("./fonts/SawarabiGothic-Regular.ttf") format("ttf");
+}
+
+#module, #form {
+    border: solid 1px black;
+    padding: 5px;
+    font-family: "ltg";
+}
+#canvas {
+    max-width: 90vw;
+    max-height: 90vh;
+    border: solid 1px black;
+}
+
