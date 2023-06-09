@@ -42,14 +42,7 @@ function drawButton() {
 }
 
 
-function resetP(){
-    for (el of document.getElementsByClassName("inputel")) {
-        el.value = el.placeholder
-    }
-}
-
 window.addEventListener("load",function () {
-    resetP()
     drawButton()
 })
 
